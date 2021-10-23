@@ -1,0 +1,10 @@
+/.envrc
+/.vagrant
+/haskell/cabal.project.local
+/haskell/dist
+/haskell/dist-newstyle
+/kotlin/.gradle
+/kotlin/build
+/kotlin/app/build
+/kotlin/.idea
+

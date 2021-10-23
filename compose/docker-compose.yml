@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+
+  svc0:
+    image: svc0
+    container_name: nomad_front
+    ports:
+      - "5000:8081"
+
+  svc1:
+    image: svc1
+    container_name: nomad_back
+    ports:
+      - "8080:8080"
