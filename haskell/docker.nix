@@ -3,7 +3,7 @@
 }:
 
 pkgs.dockerTools.buildImage {
-  name = "svc1";
+  name = "docker-registry.monoidmagma.com/svc1";
   contents = project;
   tag = "latest";
   config = {
