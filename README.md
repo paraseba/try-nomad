@@ -105,10 +105,10 @@ vagrant up
 
 This will take a while. You can verify by doing:
 ```bash
-ping 192.168.50.2
-ping 192.168.50.10
-ping 192.168.50.20
-ping 192.168.50.21
+ping -c1 192.168.50.2
+ping -c1 192.168.50.10
+ping -c1 192.168.50.20
+ping -c1 192.168.50.21
 ```
 
 then navigating to:
