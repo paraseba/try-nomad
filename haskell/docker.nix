@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> { }
+{ pkgs ? import (import ../nix/sources.nix {}).nixpkgs {}
 , project ? (import ./default.nix).svc1.components.exes.svc1
 }:
 

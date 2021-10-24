@@ -16,9 +16,10 @@
       # needed by vagrant
       ps
       systemd
-      virtualbox
+      virtualboxHeadless
       curl
       openssh
+      cacert
 
       # extra tools
       vim
